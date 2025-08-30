@@ -1,0 +1,287 @@
+
+.fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+body {
+  padding-top: 160px; 
+}
+
+.contenars{
+  display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+position: relative;}
+
+.preview__header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #2b2d2f; 
+  padding: 10px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.preview__logo a {
+ display: flex;
+  align-items: center; 
+  height: 30px;
+  width: 152px;
+  text-indent: -9999px; 
+background: url(/public/image/envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg)no-repeat;
+background-size: contain;
+  background-position: center; 
+
+}
+
+
+.btn-buy {
+  background-color: #82b440; 
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+    border-radius: 5px;
+
+}
+
+
+
+
+.btn-login {
+  position: relative;
+  overflow: hidden;
+    background-color: rgb(46, 202, 127);  
+    color: white;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.btn-login::before {
+  content: "";
+  position: absolute;
+  top: -100%;      
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1a2d62; 
+  z-index: 0;      
+  transition: top 0.6s;
+}
+
+.btn-login:hover::before {
+  top: 0;           
+}
+
+.btn-login span {
+  position: relative;
+  z-index: 1;       
+}
+
+
+
+ 
+.dropdown :hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+}
+
+
+.dropdown-menu .dropdown-item {
+  margin-bottom: 8px;   
+  border-radius: 6px;   
+  padding: 6px 12px;    
+}
+
+
+.dropdown-with-border .dropdown-menu {
+  border-top: 3px solid #61CE70;   
+}
+
+.dropdown-toggle:hover {
+  background-color: transparent !important; 
+  color: #61CE70 !important; 
+}
+
+.Contact-green:hover{background-color: transparent !important; 
+  color:#61CE70 !important; }
+
+
+ 
+.dropdown-with-border .dropdown-item:hover {
+    background-color: #2eca7f; 
+    color: white;}
+
+
+
+
+
+
+
+
+
+  
+
+.footer {
+  background: #1a2d62;
+  color: #fff;
+  padding: 80px ;
+  font-size: 15px;
+
+}  
+.section-padding {
+    padding: 80px;
+}
+.about_widget {
+    padding-right: 50px;
+    overflow: hidden;
+}
+.about_widget img {
+    margin-bottom: 20px;
+    width: 165px;
+}
+
+.single_footer h4 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.single_footer p {
+  color: #fff;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+.foot_social span {
+    float: left;
+    padding-right: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.single_footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.single_footer ul li {
+  margin-bottom: 10px;
+}
+
+.single_footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+.single_footer ul li a i{      color: #fff;}
+
+.single_footer ul li a i:hover, .single_footer ul li a:hover {color: #2eca7f;}
+
+
+.foot_social {
+  margin-top: 15px;
+}
+
+
+.foot_social ul {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+.sf_contact {
+    margin-top: 30px;
+
+  margin-bottom: 15px;
+    display: flex;
+align-items: center;   
+  gap: 10px;     
+}
+
+.sf_contact span {
+  font-size: 20px;
+  color: #2eca7f;
+}
+
+.sf_contact h3 {
+  font-size: 16px;
+  color: #fff;
+  margin:5px 10px ;
+}
+
+.sf_contact p {
+  margin: 0;
+  color: #aaa;
+}
+
+.footer-btm {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.footer_menu ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  list-style: none;
+}
+
+.footer_menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer_menu ul li a:hover {
+  color: #2eca7f;
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+.scroll{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+           height: 50px;
+           background-color: #2eca7fee; 
+            color: white;
+            fontSize: 22px;
+         }
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
