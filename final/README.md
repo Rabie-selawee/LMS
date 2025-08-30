@@ -10,7 +10,7 @@ A short video home page all sections of the platform:
 ## Home Page Preview and screnshot
 
 ## home page
-![Demo image ](/public/image/Screenshot (107).png)
+![Demo image ](/public/image/Screenshot%20(107).png)
 
 *Video showcasing the design of the project's home page.*
 
