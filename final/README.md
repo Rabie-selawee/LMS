@@ -9,11 +9,8 @@ This project is a Front-End version of an Educational LMS platform, built using 
 A short video home page all sections of the platform:
 ## Home Page Preview and screnshot
 
-## Demo Video
-<video width="100%" controls>
-  <source src="./public/image/Edusion - Education LMS WordPress Theme Preview - ThemeForest - Personal - Microsoft​ Edge 2025-08-30 18-12-31.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+## home page
+![Demo image ](/public/image/Screenshot (107).png)
 
 *Video showcasing the design of the project's home page.*
 
