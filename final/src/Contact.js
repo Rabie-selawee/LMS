@@ -6,7 +6,7 @@ import "./Contact.css"
 export default function About() {
   return (
     <div className="contenars">  
-<Backhome tital={"Contact"}/>
+<Backhome title={"Contact"}/>
 <ContactSection />
 <ContactForm />
 

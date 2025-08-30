@@ -12,7 +12,7 @@ import Section20 from "./Section20";
 export default function About() {
   return (
     <div className="contenars">  
-<Backhome tital={"About Us"}/>
+<Backhome title={"About Us"}/>
       <Section2 />
       <Section15 />
       <Section6 />

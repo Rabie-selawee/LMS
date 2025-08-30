@@ -3,7 +3,7 @@ import Section21 from "./Section21"
 export default function CoursesStyle1() {
   return (
     <div className="contenars">  
-<Backhome tital={"Courses"}/>
+<Backhome title={"Courses"}/>
 
 <Section21/>
 

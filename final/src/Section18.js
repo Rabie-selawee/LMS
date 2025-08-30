@@ -1,7 +1,7 @@
 import "./Section.css";
 import { Container, Row, Col,  } from "react-bootstrap";
 
-export default function Section8({img}) {
+export default function Section18({img}) {
   return (
     
 

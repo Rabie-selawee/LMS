@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Section.css";
 
-export default function Section7() {
+export default function Section16() {
   const courses = [
     {
       img: "/image/pexels-karolina-grabowska-5882683.jpg",

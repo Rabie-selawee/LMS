@@ -819,14 +819,14 @@ background-color: #2eca7f;
 
 
 
-.single-team-home {
+.team_home_area .single-team-home {
     position: relative;
     margin-bottom: 100px;
     border-radius: 10px;
     margin-right: 20px;
 
 }
-.single-team-home::before {
+.team_home_area .single-team-home::before {
     content: "";
     position: absolute;
     left: 0px;
@@ -838,15 +838,18 @@ background-color: #2eca7f;
     transition: 0.3s;
     border-radius: 10px;
 }
+.team_home_area .single-team-home:hover {
+box-shadow: 1px -12px 20px rgba(46, 202, 127, 0.215);
 
-.single-team-home .img img {
+}
+.team_home_area .single-team-home .img img {
     width: 100%;
     border-radius: 10px;
   height: 330px;    
   object-fit: cover; 
 }
 
-.single-team-home .team-content-home {
+.team_home_area .single-team-home .team-content-home {
     text-align: center;
     position: absolute;
     left: 10px;
@@ -859,36 +862,36 @@ background-color: #2eca7f;
     border-radius: 10px;
 }
 
-.team-content-home h3
+.team_home_area .team-content-home h3
  {
     font-weight: 700;
     color: rgb(255, 255, 255);
     font-size: 22px;
     margin: 0px 0px 5px;
 }
-.team-content-home h3 a {
+.team_home_area .team-content-home h3 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.team-content-home p {
+.team_home_area .team-content-home p {
     font-weight: 500;
     color: rgb(255, 255, 255);
 }
 
-.sth_det span {
+.team_home_area .sth_det span {
     color: rgb(255, 255, 255);
     font-weight: 600;
     display: block;
     margin: 15px 0px;
 }
-.single-team-home .team-content-home ul.social-home {
+.team_home_area .single-team-home .team-content-home ul.social-home {
     margin-top: 10px;
     padding-left: 0px;
     margin-bottom: 0px;
     list-style: none;
 }
-.single-team-home .team-content-home .social-home li {
+.team_home_area .single-team-home .team-content-home .social-home li {
     display: inline-block;
 }
 

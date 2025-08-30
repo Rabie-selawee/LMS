@@ -3,9 +3,7 @@ export default function Topage({ page, setPage, totalPages }) {
     if (page < totalPages) setPage(page + 1);
   };
 
-  const handlePrev = () => {
-    if (page > 1) setPage(page - 1);
-  };
+  
 
   const pages = [];
   for (let i = 1; i <= totalPages; i++) pages.push(i);
@@ -22,8 +20,7 @@ export default function Topage({ page, setPage, totalPages }) {
           <a
             key={p}
             onClick={() => setPage(p)}
-            className={`page-numbers ${page === p ? "current" : ""}`}
-          >
+            className={`page-numbers ${page === p ? "current" : ""}`}>
             {p}
           </a>
         ))}

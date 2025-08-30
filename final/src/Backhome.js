@@ -1,7 +1,7 @@
 import React from "react";
 import "./Section.css"; // إذا عندك ستايل خارجي
 
-export default function Backhome({tital}) {
+export default function Backhome({title}) {
   return (
     <section
       className="section-top"
@@ -23,12 +23,12 @@ export default function Backhome({tital}) {
               animationName: "fadeInRight",
             }}
           >
-            <h1>{tital}</h1>
+            <h1>{title}</h1>
             <ul>
               <li>
                 <a href="/home">Home</a>
               </li>
-              <li> / {tital}</li>
+              <li> / {title}</li>
             </ul>
           </div>
           {/* //.HERO-TEXT */}

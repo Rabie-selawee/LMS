@@ -253,11 +253,6 @@ align-items: center;
 
 
 
-
-
-
-
-
 .scroll{
             position: fixed;
             bottom: 20px;
@@ -266,7 +261,7 @@ align-items: center;
            height: 50px;
            background-color: #2eca7fee; 
             color: white;
-            fontSize: 22px;
+            font-size: 22px;
          }
 
 

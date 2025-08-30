@@ -27,18 +27,18 @@ export default function Section14() {
           <div className="col-lg-6 col-md-6 col-12">
             
             <div className="home_subs">
-              <form className="d-flex justify-content-center" action="https://wpdemothemes.com/edusion/" class="banner_subs">
-               <input type="text" class="form-controls home_si" name="s" placeholder="Search your course here" required="required"  />
-               <input type="hidden" name="post_type" value="courses" />        
+              <form className="d-flex justify-content-center banner_subs" action="https://wpdemothemes.com/edusion/" >
+               <input type="text" className="form-controls home_si" name="s" placeholder="Search your course here" required="required"  />
+               <input type="hidden" className="post_type" value="courses" />        
 
-                <button type="submit" class="subscribe__btns">Search<i class="fa fa-paper-plane"></i> </button>
+                <button type="submit" className="subscribe__btns">Search<i className="fa fa-paper-plane"></i> </button>
               </form>
              
             </div>
           </div>
         </div>
-         <div class="foot_social text-center">
-                <ul class=" text-center">
+         <div className="foot_social text-center">
+                <ul className=" text-center">
                   <p style={{marginRight:"10px",}} > Popular Topic:</p>
                   <li>
                     <a href="#">Business</a>{" ,"}

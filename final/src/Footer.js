@@ -12,8 +12,8 @@ export default function Footer() {
                   <img src="/image/logo3.png" alt="Edusion" />
                 </a>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  vitae risus nec dui venenatis dignissim.
+                  Lorem ipsum dolor <br/>sit amet, consectetur<br/> adipiscing elit. <br/>Fusce
+                  vitae risus nec<br/> dui venenatis dignissim.
                 </p>
 
                 <div class="foot_social">
